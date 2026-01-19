@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.9cc1e973.css",
+    "main.js": "/my-portfolio/static/js/main.500d3c96.js",
+    "static/js/453.15a626a8.chunk.js": "/my-portfolio/static/js/453.15a626a8.chunk.js",
+    "static/media/portfolio5.png": "/my-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/bg-photo-removebg-preview.png": "/my-portfolio/static/media/bg-photo-removebg-preview.e63ddec4db75c25ad21f.png",
+    "static/media/bg-about-removebg-preview.png": "/my-portfolio/static/media/bg-about-removebg-preview.21c6a48a5272aa6d4818.png",
+    "static/media/portfolio2.jpg": "/my-portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/my-portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/my-portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/my-portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/my-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/Abdelrahman_Maher_Frontend_CV_.pdf": "/my-portfolio/static/media/Abdelrahman_Maher_Frontend_CV_.61d792cc45803a1a184f.pdf",
+    "static/media/react.svg": "/my-portfolio/static/media/react.773b0515c6eab32646e66c2bbc74f4d3.svg",
+    "static/media/css3.svg": "/my-portfolio/static/media/css3.f14b087c30d9f8be331a7191cda9463f.svg",
+    "static/media/nodejs.svg": "/my-portfolio/static/media/nodejs.3cab2849d218f35912024b23b1bfd4fa.svg",
+    "static/media/figma.svg": "/my-portfolio/static/media/figma.3b61e3aa1eba9db891eccad558020020.svg",
+    "static/media/tailwindcss.svg": "/my-portfolio/static/media/tailwindcss.6e8e85fcd63cfd3e6ab686ae1ef6f636.svg",
+    "static/media/expressjs.svg": "/my-portfolio/static/media/expressjs.bc249f1ec0472c0ab88e604e2673f94d.svg",
+    "static/media/javascript.svg": "/my-portfolio/static/media/javascript.1a987ea389c931b550cb2e56429e9190.svg",
+    "static/media/mongodb.svg": "/my-portfolio/static/media/mongodb.d597373bed3a732a566659375425268c.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.9cc1e973.css.map": "/my-portfolio/static/css/main.9cc1e973.css.map",
+    "main.500d3c96.js.map": "/my-portfolio/static/js/main.500d3c96.js.map",
+    "453.15a626a8.chunk.js.map": "/my-portfolio/static/js/453.15a626a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc1e973.css",
+    "static/js/main.500d3c96.js"
+  ]
+}
