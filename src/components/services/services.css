@@ -1,0 +1,40 @@
+.container_services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container_services .card{
+    background :var(--color-bg-variant);
+    border-radius: 1rem;
+    padding: 50px 40px;
+   width: 31%;
+   transition: var(--transition);
+   border: 1px solid transparent;
+
+}
+.container_services .card:hover{
+    background: transparent;
+    border: 1px solid var(--color-primary);
+}
+.container_services .icon{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: var(--color-primary );
+
+}
+
+/* responsive */
+@media  (max-width: 1024px) {
+    .container_services .card{
+       width: 48%;
+       margin-bottom: 20px;
+    }
+    
+}
+@media  (max-width: 600px) {
+    .container_services .card{
+       width: 100%;
+    }
+    
+}

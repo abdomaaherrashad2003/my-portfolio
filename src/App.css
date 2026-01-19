@@ -1,38 +1,113 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root{
+  --color-bg:#1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77,181,255,0.4);
+  --color-white: #fff;
+  --color-light: rgba(255,255,255,0.6);
+--transition: all 0.4s ease;
+}
+body{
+   font-family: "Poppins", sans-serif;
+   background:var(--color-bg);
+   color: var(--color-white);
+   line-height: 1.7;
+   background-image: url(assets/bg-texture.png);
+
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+}
+h1{
+  font-size: 2.5rem;
+}
+section{
+  padding-top: 9rem;
+}
+.text-ligth{
+  color: var(--color-light);
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  color: var(--color-primary);
+  transform: var(--transition);
+
+}
+a:hover{
+  color: var(--color-white);
+
+}
+
+.top_section h2{
+  color: var(--color-primary);
   text-align: center;
-}
+  margin-bottom: 3rem;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.top_section h5{
+  text-align: center;
+  color: var(--color-light);
+}
+.btn{
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+.btn:hover{
+  background:var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.btn-primary{
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+/* media queries tablet */
+ 
+@media (max-width:1024px) {
+  .container{
+    width: 85%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  section{
+    padding-top: 6rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+}
+/* media queries mobile */
+
+@media (max-width:600px) {
+  .container{
+    width: 90%;
   }
+  section{
+    padding-top: 5rem;
+  }
+  .top_section h2{
+    margin-bottom: 2rem;
+  }
+  
 }
