@@ -11,7 +11,7 @@ function Nav() {
   return (
   
    <nav>
-    <a href='#' className={activeNav === '#' ? 'active' : ''} onClick={()=>setActiveNav("#")}><IoHomeOutline /></a>
+    <a href='/' className={activeNav === '#' ? 'active' : ''} onClick={()=>setActiveNav("#")}><IoHomeOutline /></a>
     <a href='#about' className={activeNav === '#about' ? 'active' : ''} onClick={()=>setActiveNav("#about")}><LuUserRound /></a>
     <a href='#services' className={activeNav === '#services' ? 'active' : ''} onClick={()=>setActiveNav("#services")}><BiBook /></a>
     <a href='#projects' className={activeNav === '#projects' ? 'active' : ''} onClick={()=>setActiveNav("#projects")}><RiServiceFill /></a>
