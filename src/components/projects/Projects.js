@@ -73,8 +73,24 @@ export default function Projects() {
         </div>
         <h3>{disc}</h3>
         <div className='portfolio_item_btns'>
-          <a href={git_hub} target='_blank' className='btn'>Git Hup</a>
-          <a href={live_demo} target='_blank' className='btn btn-primary'>Live Demo</a>
+          <a 
+  href={git_hub !== "#" ? git_hub : undefined} 
+  target={git_hub !== "#" ? "_blank" : undefined} 
+  rel="noopener noreferrer"
+  className='btn'
+>
+  Git Hub
+</a>
+
+<a 
+  href={live_demo !== "#" ? live_demo : undefined} 
+  target={live_demo !== "#" ? "_blank" : undefined} 
+  rel="noopener noreferrer"
+  className='btn btn-primary'
+>
+  Live Demo
+</a>
+
         </div>
         </article>
 
