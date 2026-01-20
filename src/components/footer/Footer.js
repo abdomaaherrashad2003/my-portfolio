@@ -1,28 +1,56 @@
 import React from 'react'
 import "./footer.css"
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare, FaTelegramPlane } from "react-icons/fa";
+
 function Footer() {
   return (
     <footer>
-      <a href='#' className='footer_logo'>Abdelrhman</a>
+
+      {/* logo */}
+      <a href="#home" className='footer_logo'>Abdelrhman</a>
+
+      {/* links */}
       <ul className='permalinks'>
-        <a href='#'>Home</a>
-        <a href='#about'>About</a>
-        <a href='#contact'>Contact</a>
-        <a href='#projects'>Projects</a>
-        <a href='#skills'>Skills</a>
-        <a href='#services'>Services</a>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
       </ul>
+
+      {/* socials */}
       <div className='footer_socials'>
-        <a href='https://www.facebook.com/abdo2003.7' target='_blank'><FaFacebookSquare /></a>
-        <a href='#' target='_blank'><FaInstagramSquare /></a>
-        <a href='https://t.me/abdomaher2003' target='_blank'><FaTelegramPlane /></a>
+        <a
+          href="https://www.facebook.com/abdo2003.7"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaFacebookSquare />
+        </a>
+
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaInstagramSquare />
+        </a>
+
+        <a
+          href="https://t.me/abdomaher2003"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaTelegramPlane />
+        </a>
       </div>
-      <div>
-        <small className='footer_copyrigth'>&copy;<a href='#'> 2026 Abdelrhman Maher</a> All rights reserved.</small>
-      </div>
+
+      {/* copyright */}
+      <small className='footer_copyrigth'>
+        &copy; 2026 Abdelrhman Maher. All rights reserved.
+      </small>
+
     </footer>
   )
 }
