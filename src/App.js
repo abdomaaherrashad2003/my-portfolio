@@ -15,13 +15,10 @@ function App() {
    <Nav />
     <About />
     <Skills />
-     
     <Services />
     <Projects />
     <Contact />
     <Footer />
-    
-    
   </>
   )
 }
