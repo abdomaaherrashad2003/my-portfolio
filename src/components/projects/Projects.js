@@ -13,45 +13,19 @@ const ProjectsData=[
   id:1,
   image:IMG1,
  
-  disc:"User Interface",
-  git_hub:"#",
-  live_demo:"#"
+  disc:"React E-Commerce",
+  git_hub:"https://github.com/abdomaaherrashad2003/React-Ecommerce",
+  live_demo:"https://react-ecommerce-mfkt.vercel.app/"
 
 }
   , {
   id:2,
   image:IMG2,
   
-  disc:"Interaction",
-  git_hub:"#",
-  live_demo:"#"
-}  , {
-  id:3,
-  image:IMG3,
-  
-  disc:"Framework",
-  git_hub:"#",
-  live_demo:"#"
-}  , {
-  id:4,
-  image:IMG4,
-
-  disc:"Web Server",
-  git_hub:"#",
-  live_demo:"#"
-}  , {
-  id:5,
-  image:IMG5,
-  disc:"User Interface",
-  git_hub:"#",
-  live_demo:"#"
-}  , {
-  id:6,
-  image:IMG6,
-  disc:"Disgn Tool",
-  git_hub:"#",
-  live_demo:"#"
-}
+  disc:"Task Manager",
+  git_hub:"https://github.com/abdomaaherrashad2003/ToDoList",
+  live_demo:"https://to-do-list-phi-nine-20.vercel.app/"
+}  
 
 ]
 
